@@ -46,7 +46,7 @@ jobs:
       - name: Run Figmagic and use latest Figma data
         id: figma-latest
         if: ${{ !github.event.inputs.version }}
-        run: node node_modules/figmagic/build/index.js
+        run: node node_modules/figmagic/build/index.js -- --token ${ secrets.FIGMA_TOKEN } --url ${ secrets.FIGMA_URL }
 
       - name: Run Figmagic and use named version of Figma data
         id: figma-versioned
