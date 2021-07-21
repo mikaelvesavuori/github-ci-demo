@@ -53,5 +53,9 @@ Only inputs that the workflow expects will be allowed. If it contains anything u
 
 ## References
 
-- [GitHub Docs: Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-- [GitHub Docs: Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
+- [GitHub: Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [GitHub: Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
+- [GitHub: Personal access tokens](https://github.com/settings/tokens)
+- [GitHub: Getting started with the REST API](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api)
+- [GitHub: Create a workflow dispatch event](https://docs.github.com/en/rest/reference/actions#create-a-workflow-dispatch-event)
+- [GitHub: Events that trigger workflows](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#workflow_dispatch)
