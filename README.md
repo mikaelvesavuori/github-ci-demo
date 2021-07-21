@@ -33,7 +33,7 @@ Then send a payload:
 POST https://api.github.com/repos/{USER_NAME}/{REPO_NAME}/actions/workflows/{WORKFLOW_FILENAME}/dispatches
 
 {
-	"ref": "main"
+  "ref": "main"
 }
 ```
 
