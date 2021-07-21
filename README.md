@@ -4,6 +4,21 @@ This is a basic demonstration of what is needed to run a GitHub Actions CI build
 
 We are using Figmagic for this demo to demonstrate running it in CI. Even if you don't care for that specific tool, you'll get the gist of how to automate stuff in CI.
 
+## Instructions
+
+Clone this repo and put it on GitHub.
+
+Set secrets for the pipeline as per:
+
+- `FIGMA_TOKEN` as your Figma API token
+- `FIGMA_URL` to point to your Figma file ID
+
+### Authentication
+
+The ideal way to authenticate is through Personal Access Tokens. Create one at the [dedicated page for Personal Access Tokens](https://github.com/settings/tokens).
+
+A suitable access scope is `repo`.
+
 ## Example call to API
 
 Set the following headers:
